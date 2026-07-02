@@ -35,3 +35,20 @@ git clone https://github.com/softkorea/fake-mirror-effect ../fake-mirror-effect
 | Kaiming uniform | VN | -0.000 | -0.001 | -0.003 | -0.003 |
 
 Under He normal initialization the qualitative pattern replicates: a positive Baseline self-correction gain, a near-zero recurrence-off control (Group A), and negative shuffled-feedback (C1) and clone-feedback (C2) gains. Kaiming uniform (~6x smaller initial variance) does not produce self-correction, consistent with initialization-dependent emergence.
+
+## Citation
+
+This repository is the PyTorch cross-validation companion of the paper (Appendix A.6);
+the main NumPy release is <https://github.com/softkorea/fake-mirror-effect>.
+
+```bibtex
+@article{ong2026fakemirror,
+  title   = {The Fake Mirror Effect: Foreign Feedback Disrupts Self-Correction
+             in Minimal Recurrent Networks},
+  author  = {Sungmoon Ong},
+  journal = {Transactions on Machine Learning Research},
+  issn    = {2835-8856},
+  year    = {2026},
+  url     = {https://openreview.net/forum?id=cwENvGCLRv}
+}
+```
